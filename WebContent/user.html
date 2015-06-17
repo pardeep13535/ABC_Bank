@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>User data</title>
+</head>
+<body>
+<form name="userForm" method="post"  action="add.do" >
+<div>
+	<h2>Submit new application</h2>
+	</div>
+	<div style="float: left; ">		
+		First name <input type="text" name="firstname" maxlength="255" required ><br>
+		Middle name <input type="text" name="middlename" maxlength="255" ><br>
+		Last name <input type="text" name="lastname" maxlength="255" required ><br>
+		Date of Birth <input type="text" name="date" ><br>  
+		Marital Status <input type="text" name="martialstatus"><br>
+		SSN text <input type="text" name="ssn" required><br>
+		Loan Amount <input type="text" name="loanammount" required><br>
+		Loan Purpose <input type="text" name="loan_purpose" required>  <br>
+	</div>
+	<div align="right">
+		Address<br>
+		Address Line 1<input type="text" name="address_line1" required><br>
+		Address Line 2<input type="text" name="address_line2"><br>
+		City<input type="text" name="city" required><br>
+		State<input type="text" name="state" required><br>
+		Postal Code<input type="text" name="postal_code" maxlength="5" required><br>		
+	</div >	
+	<div align="right">
+			<br>
+			Contact Information<br>
+			Home Phone<input type="text" name="home_phone" required><br>		
+			Office Phone<input type="text" name="office_phone"><br>		
+			Mobile Number<input type="text" name="phone" required><br>		
+			Email Address<input type="text" name="email_address" required><br>
+	</div>
+	
+	<div>
+	Description<br> <input type="text" name="description"><br>
+	</div>
+	<div>
+		Employment Details<br>
+		<div style="float: left; ">
+			Employer name <input type="text" name="employer_name" maxlength="255" required><br>
+			Annual Salary <input type="text" name="annual_salary" required><br>			
+		</div>
+		<div align="right">
+			Work Experience in months <input type="text" name="exp" required><br>
+			Designation<input type="text" ><br>
+		</div>
+	</div>
+	
+	<div>
+		<br>Address<br>
+		Address Line 1<input type="text" name="emp_address_line1" required><br>
+		Address Line 2<input type="text" name="emp_address_line2"><br>
+		City<input type="text" name="emp_city" required><br>
+		State<input type="text" name="emp_state" required><br>
+		Postal Code<input type="text" name="emp_pincode" maxlength="5" required><br>		
+	</div>
+<div style="float: left; ">
+<input type="submit" value="Submit"/>
+</div>
+<a href="welcome.jsp">Cancel</a>
+</form>
+</body>
+</html>
